@@ -1,0 +1,1400 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* max-width: 1440px; */
+}
+
+/* header {
+    width: 1440px;
+} */
+.navbar_image {
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(30, 59, 61, 0.1) , rgba(30, 59, 61, 1)), url("navbar_image.jpg");
+    border-bottom: 1px solid #cccccc;
+     
+}
+
+.navbar_heading {
+    color: white;
+    font-size: 1rem;
+}
+
+
+.navbar_anchors {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 30px;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.navbar_anchors a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_appointment {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+}
+.navbar_appointment i {
+    margin-right: 8px;
+}
+.navbar_appointment a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_healingsouls {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 440px;
+    height: 170px;
+    display: flex;
+    position: absolute; 
+    left: 502px;
+    top: 600px;
+    align-items: center;
+    align-content: center;  
+}
+
+.navbar_healingminds {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    top: 700px;
+    left: 250px;
+    color: rgba(238, 222, 150, 1);
+    align-items: center;
+
+    font-size: 7rem;
+    font-weight: 500;
+    
+}
+
+
+/** Hero section **/
+
+.hero_section {
+    width: 100%;
+    height: 1660px;
+    background-color: rgba(30, 59, 61, 1);
+    display: flex;
+}
+
+/* .hero_content{
+    di
+} */
+
+ .hero_root {
+    width: 100%;
+    height: 1660px;
+    background-color: rgba(30, 59, 61, 1);
+
+     
+ }
+
+ .hero_top {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+     
+ }
+
+ .hero_image {
+    width: 630px;
+    height: 480px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    left: 30px;
+     
+ }
+
+ .hero_topText {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    top: 80px;
+    margin-left: 100px;
+ }
+ .hero_topText h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5rem;
+ }
+ .hero_topText p {
+    color: white;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .hero_top {
+   display: flex;
+ }
+
+ .hero_list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+ }
+
+ .bullet {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgba(246, 120, 79, 1);
+    margin-right: 5px;
+    
+ }
+
+ .ul {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .hero_button {
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(238, 222, 150, 1);
+    color: black;
+    animation-name: see_more;
+ }
+
+ .hero_button:hover {
+    transition: all 1.5s ease-in-out 0s;
+    background-color: #5bc0eb;
+    color: #fde74c;
+    width: 200px;
+
+ }
+
+ .hero_heading {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 4rem;
+    text-transform: uppercase; 
+    margin-bottom: 20px ;   
+ }
+
+
+
+ /** Hero bottom **/
+
+  .hero_bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* align-items: center; */
+  }
+
+ .group_therapy {
+    
+   height: 140px;
+   width: 400px;
+   border-top: 1px solid rgba(238, 222, 150, 0.5);
+   border-bottom: 1px solid rgba(238, 222, 150, 0.5);
+   position: relative;
+   left: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   color: white;
+   align-items: center;
+   margin: 50px;
+    
+ }
+ .group_therapy i {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-right: 5px;
+    align-content: center;
+    color: rgba(238, 222, 150, 1);
+ }
+.group_therapy p {
+    padding: 10px;
+    color: rgba(238, 222, 150, 0.7);
+}
+
+/**                     Designing the body tag                              **/
+
+.body {
+    
+    height: 800px;
+    width: 100%;
+
+}
+
+.body_pictures {
+    height: 770px;
+    margin-top: 130px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    
+     
+}
+
+.picture {
+    width: 400px;
+    height: 350px;
+    border: 2px solid transparent;
+    margin: 5px;
+}
+.picture_content {
+    color: #283618;
+    background: linear-gradient(to top , #dce0d9 , #fbf6ef , #ead7c3);
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 400px;
+    height: 350px;
+    border: 2px solid transparent;
+    margin: 5px;
+    
+}
+
+/**                                        Closing Body design                          **/
+.closing_body {
+    width: 100%;
+    height: 430px;
+    background:rgba(238, 222, 150, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+}
+.closing_body h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+    
+}
+
+.body_button {
+    width: 210px;
+    height: 50px;
+    background: rgba(246, 120, 79, 1);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/**                                     Footer design                                            **/ 
+
+.footer_main {
+    height: 350px;
+    width: 100%;
+}
+
+.top1 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    color: rgba(30, 59, 61, 1);
+    font-size: 5rem;
+}
+.top1 i {
+    font-size: 2rem;
+}
+
+.top2 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.top2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(30, 59, 61, 0.5);
+}
+
+.footer_bottom {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/**                 Styling the About.html from here onward now                                         **/
+
+
+.about_header_bg {
+    width: 100%;
+    height: 1200px;
+    background: radial-gradient( rgba(238, 222, 150, 1) , rgba(255, 255, 255, 0.7) , rgba(238, 222, 150, 1));
+}
+
+.about_navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_navbar_heading {
+    color: rgba(30, 59, 61, 1);
+    font-size: 1rem;
+}
+
+
+.about_navbar_anchors {
+    display: flex;
+    color: rgba(30, 59, 61, 1);
+    text-decoration: none;
+    gap: 30px;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.about_navbar_anchors a{
+    text-decoration: none;
+    color: rgba(30, 59, 61, 1);
+}
+
+.about_navbar_appointment {
+    display: flex;
+    color: rgba(30, 59, 61, 1);
+    font-size: 1rem;
+    align-items: center;
+}
+.about_navbar_appointment i {
+    margin-right: 8px;
+}
+.about_navbar_appointment a{
+    color: rgba(30, 59, 61, 1);
+    text-decoration: none;
+}
+
+
+.about_heading {
+    /* margin: 50px; */
+    height: 220px;
+    width: 100%;
+    color:rgba(30, 59, 61, 1);
+    margin-bottom: 70px
+    
+}
+.about_heading p{
+  font-size: 5rem;
+  padding: 50px 50px 0px 50px;
+}
+
+.about_heading_text1_main {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-top: 50px; */
+    align-items: center;
+    align-content: center;
+}
+
+.about_heading_text1 {
+    color: rgba(30, 59, 61, 1);
+    width: 500px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;  
+    font-weight: 400;
+    font-size: 0.85rem; 
+}
+
+.about_heading_text2_main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.about_heading_text2 {
+    color: rgba(30, 59, 61, 1);
+    width: 800px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 0.85rem; 
+}
+
+.about_heading_text2 p {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header_bottom {
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+
+.header_bottom1 {
+    width: 50%;
+    height: 600px;
+    margin-left: 50px;
+    background-image: url(about_header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header_bottom2 {
+    width: 50%;
+    height: 600px;
+    margin-left: 50px;    
+}
+
+.header_bottom2_1 {
+    width: 450px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_bottom2_1_content {
+    display: flex;
+    color: rgba(30, 59, 61, 1);
+    flex-direction: column;
+}
+.header_bottom2_2 {
+    width: 450px;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.header_bottom2_3{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    align-items: center;    
+}
+.header_bottom2_4{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    align-items: center;    
+}
+/* .header_bottom2_4 {
+    width: 450px;
+    height: 150px;
+    background-color: #5bc0eb;
+} */
+
+
+/**                              hers sectioin of about page design begin here                        **/
+
+.about_herosection {
+    width: 100%;
+    height: 700px;
+    /* background-color: #5bc0eb; */
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* border-bottom: 1px dotted rgba(246, 120, 79, 1); */
+}
+
+.about_herosection_top {
+    width: 100%;
+    height: 200px;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgba(30, 59, 61, 1);
+}
+
+.about_herosection_bottom {
+    width: 100%;
+    height: 500px;
+    /* background-color: #283618; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+}
+
+.about_herosection_bottom_1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.about_herosection_bottom_2 {
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("about_herosection.jpg");
+    /* background-color:aqua; */
+}
+
+.about_herosection_bottom_3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: palevioletred; */
+}
+
+
+.about_counseling {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(195, 199, 200, 1);
+}
+
+.about_counseling_content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(30, 59, 61, 1);
+    font-size: 1.5rem;
+    gap: 10px;
+    
+    /* border-bottom: #ead7c3; */
+}
+.about_counseling_content i {
+    color: rgba(247, 120, 79, 1);
+    font-size: 2rem;
+}
+
+
+.about_counseling_bottom3 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(195, 199, 200, 1);    
+}
+
+
+.about_herosection_bottom_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about_herosection_bottom_3_p {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    margin: 30px 0px 30px 0px;
+     
+}
+
+.about_herosection_bottom_3_p_button {
+    width: 50%;
+    height: 20%;
+    background-color: rgba(246, 120, 79, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+/**                                      Now the styling for the Services begin here                                    **/
+
+.services_header_main {
+    height: 780px;
+    width: 100%;
+    background: linear-gradient( rgba(30, 59, 61, 0.5)) ,  url("services_header.jpg") ;
+    /* background-image: url(services_header.jpg); */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services_header_bottom {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom , rgba(30, 59, 61, 0) , rgba(30, 59, 61, 1) );
+}
+
+
+.services_header_bottom h1 {
+    font-size: 5rem;
+    color: rgba(238, 222, 150, 1);
+    font-weight: 400;
+    text-transform: uppercase;
+   
+}
+ 
+
+.services_header_bottom p {
+    width: 600px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+.service_h_bottom {
+    width: 100%;
+    height: 590px;
+    background-color: rgba(30, 59, 61, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service_h_bottom_top {
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.service_h_bottom_top p {
+    width: 700px;
+    height: 50px;
+    margin-left: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.service_h_bottom_bottom {
+    width: 100%;
+    height: 80%;
+    /* background-color: #fde74c; */
+    display: flex;
+}
+
+.service_h_bottom_bottom_1 {
+    width: 50%;
+    height: 100%;
+    /* background-color: #5bc0eb; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgba(238, 222, 150, 1);
+}
+.service_h_bottom_bottom_2 {
+    width: 50%;
+    height: 100%;
+    /* background-color:#283618; */
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.service_h_bottom_bottom_2_img {
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(services_h_bottom.jpg);
+   
+}
+
+
+
+.service_h_bottom_bottom_1_ul {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    padding-left: 10px;
+     
+}
+
+
+.service_h_bottom_bottom_1 p {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 20px;
+   
+}
+
+
+
+
+
+/**                                       hero section starts here                               **/
+
+.hero_section {
+    width: 100%;
+    height: 500px;
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section_content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero_section_top {
+    width: 100%;
+    height: 50%;
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgba(30, 59, 61, 1); 
+    display: flex;
+    justify-content: center; 
+}
+.hero_section_top p{
+    width: 600px;
+}
+
+
+.hero_section_bottom {
+    width: 100%;
+    height: 30%;
+    /* background-color: #283618; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero_section_bottom_logo {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: rgba(68, 81, 82, 1);
+    border-right: 1px solid rgba(68, 81, 82, 1);
+}
+
+
+.hero_section_bottom_logo i {
+    font-size: 2.5rem;
+    color: rgba(247, 120, 79, 1);
+}
+
+
+/**                                                          styling for the main of services file                 **/
+.services_main {
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(to left ,rgba(246, 120, 79, 0) , rgba(246, 120, 79, 0.1), rgba(246, 120, 79, 0.3) , rgba(246, 120, 79, 0.4) , rgba(246, 120, 79, 0.5) , rgba(246, 120, 79, 0.4) , rgba(250, 186, 165, 0.3) , rgba(246, 120, 79, 0.1) ,   rgba(246, 120, 79, 0));
+}
+
+.services_main_top {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services_main_top_paragraph_1 {
+     width: 60%;
+     font-size: 3.5rem;
+     display: flex;
+     justify-content: center;
+     color: rgba(30, 59, 61, 1);
+}
+
+.services_main_top_paragraph {
+    width: 60%;
+    /* height: 10%; */
+    font-size: 6rem;
+    color: rgba(246, 120, 79, 1);
+    display: flex;
+    justify-content: center
+}
+
+.services_main_bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.services_main_bottom_box{
+    width: 340px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**                          Appointment Booking page design from here                                    **/
+
+.app_header {
+    width: 100%;
+    height: 1100px;
+    background: linear-gradient(rgba(30, 59, 61, 1) , rgba(195, 199, 200, 1), rgba(255, 255, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.app_header_bottom {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #283618 */
+}
+
+.app_header_bottom_top {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app_header_bottom_top span {
+    width: 80%;
+    color: white;
+    font-size: 4rem;    
+}
+
+.app_header_bottom_top p {
+    width: 70%;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.app_header_bottom_bottom {
+    width: 100%;
+    height: 80%;
+    /* background-color: #283618; */
+    display: flex;
+    justify-content: center;
+}
+
+.app_booking {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name_button {
+    height: 50px;
+    width: 886px;
+    background-color: white;
+    /* border-radius: 5px; */
+    border: none;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.app_submit {
+    width: 886px;
+    height: 50px;
+    background-color: rgba(238, 222, 150, 1);
+    border-radius: 5px;
+    border: none;
+}
+
+
+.app_name {
+    width: 49%;
+    height: 100%;
+    border: 1px solid black;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+/**                                         Appointment Page's hero section styling from here                    **/
+
+
+.app_hero {
+    width: 100%;
+    height: 650px;
+    /* background-color: #283618; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.app_hero_img {
+    height: 90%;
+    width: 45%;
+    /* margin-right: 10px; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(app_hero_img.jpg);
+}
+
+.app_hero_content {
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+}
+
+.app_hero_content_top {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.app_hero_content_top h5 {
+    color: rgba(246, 120, 79, 1);
+}
+
+.app_hero_content_top p {
+    width: 90%;
+    font-size: 3rem;
+    color: rgba(30, 59, 61, 1);
+}
+
+.app_hero_content_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.app_hero_content_bottom_content {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(30, 59, 61, 1);
+    align-content: center;
+}
+
+
+.app_hero_content_bottom_content ul {
+    list-style-type: none;
+}
+
+
+
+/** styling for the lower part of the appointment section       **/
+
+.app_closing {
+    width: 100%;
+    height: 530px;
+    background: linear-gradient(rgba(238, 222, 150, 1),rgba(238, 222, 150, 0.5),rgba(238, 222, 150, 0),rgba(238, 222, 150, 0.5),rgba(238, 222, 150, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_closing_content {
+    width: 100%;
+    height: 80%;
+    /* background-color: #fde74c; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.app_closing_top {
+    width: 100%;
+    height: 20%;
+    font-size: 2rem;
+    color: rgba(30, 59, 61, 1);
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.app_closing_bottom {
+    width: 100%;
+    height: 60%;
+    /* background-color: #5bc0eb; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.app_closing_bottom_box {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+
+/** Code for the Case Studies page begin here   **/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #1e2d2f;
+  color: white;
+}
+
+.logo span {
+  color: #f2c94c;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Hero */
+.hero {
+  height: 70vh;
+  background: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.features div {
+  background: #f2c94c;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Content */
+.content {
+  padding: 60px 80px;
+  background: white;
+}
+
+.content h2 {
+  margin-top: 30px;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Case Study */
+.case-study {
+  padding: 60px 80px;
+  background: #f4f4f4;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.case-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* CTA */
+.cta {
+  background: #1e2d2f;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background: #f2c94c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer */
+/* footer {
+  padding: 40px;
+  text-align: center;
+  background: #111;
+  color: white;
+} */
+
+
+
+
+/** COde for the Contact page          **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: linear-gradient(to right, #ffd7c9, #fff);
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo span {
+  color: #ff7a45;
+}
+
+.navbar nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(to right, #ffd7c9, #fff);
+  padding: 60px 0;
+}
+
+.contact-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.contact-image img {
+  width: 380px;
+  border-radius: 4px;
+}
+
+.contact-form {
+  background: linear-gradient(135deg, #ff7a45, #ffb28b);
+  padding: 30px;
+  margin-left: -60px;
+}
+
+.contact-form form {
+  background: #fff;
+  padding: 30px;
+  width: 380px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #f2e394;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Info Row */
+.info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 60px 80px;
+  background: #fff;
+}
+
+.info h4 {
+  margin-bottom: 10px;
+}
+
+ 
+ 
